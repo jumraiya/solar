@@ -1,0 +1,8 @@
+{:deps
+ {org.clojure/clojure {:mvn/version "1.12.0"}
+  io.github.nextjournal/markdown {:git/sha "6683c48dfdb23404a23057817b6ac3acf0310bca"}
+  io.github.nextjournal/clerk {:mvn/version "0.16.1016"}
+  scicloj/tablecloth {:mvn/version "4.04"}
+  com.github.flow-storm/flow-storm-dbg {:mvn/version "3.17.4"}
+  org.clojure/data.json {:mvn/version "2.5.0"}
+  clj-http/clj-http {:mvn/version "3.13.0"}}}
