@@ -26,6 +26,8 @@
 (def metro-housing-units (tc/dataset "data/metro_housing_units.csv"))
 
 (def metro-populations (tc/dataset "data/metro_populations.csv"))
+
+
                                         ;(def data3 (tc/dataset "data/ahs2017m.csv"))
 
 ;; (def groups (tc/group-by data "OMB13CBSA"))
@@ -73,6 +75,41 @@
    47900 "Washington-Arlington-Alexandria, DC-VA-MD-WV"})
 
 
+(def combined-statistical-area-map
+  {"Cincinnati, OH-KY-IN" "Cincinnati-Wilmington, OH-KY-IN"
+   "Cleveland-Elyria, OH"  "Cleveland-Akron-Canton, OH"
+   "Denver-Aurora-Lakewood, CO"  "Denver-Aurora-Greeley, CO"
+   "Kansas City, MO-KS"  "Kansas City-Overland Park-Kansas City, MO-KS"
+   "Memphis, TN-MS-AR"  "Memphis-Clarksdale-Forrest City, TN-MS-AR"
+   "Milwaukee-Waukesha-West Allis, WI"  "Milwaukee-Racine-Waukesha, WI"
+   "New Orleans-Metairie, LA"  "New Orleans-Metairie-Slidell, LA-MS"
+   "Pittsburgh, PA"  "Pittsburgh-Weirton-Steubenville, PA-OH-WV"
+   "Portland-Vancouver-Hillsboro, OR-WA" "Portland-Vancouver-Salem, OR-WA"
+   "Raleigh, NC" "Raleigh-Durham-Cary, NC"
+   "Baltimore-Columbia-Towson, MD"  "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA"
+   "Birmingham-Hoover, AL"  "Birmingham-Cullman-Talladega, AL"
+   "Las Vegas-Henderson-Paradise, NV" "Las Vegas-Henderson, NV"
+   "Minneapolis-St. Paul-Bloomington, MN-WI" "Minneapolis-St. Paul, MN-WI"
+   "Oklahoma City, OK" "Oklahoma City-Shawnee, OK"
+   "Rochester, NY"  "Rochester-Batavia-Seneca Falls, NY"
+   "San Antonio-New Braunfels, TX"  "San Antonio-New Braunfels-Kerrville, TX"
+   "San Jose-Sunnyvale-Santa Clara, CA"  "San Jose-San Francisco-Oakland, CA"
+   "Atlanta-Sandy Springs-Roswell, GA" "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL"
+   "Boston-Cambridge-Newton, MA-NH" "Boston-Worcester-Providence, MA-RI-NH"
+   "Chicago-Naperville-Elgin, IL-IN-WI"  "Chicago-Naperville, IL-IN-WI"
+   "Dallas-Fort Worth-Arlington, TX"  "Dallas-Fort Worth, TX-OK"
+   "Detroit-Warren-Dearborn, MI"  "Detroit-Warren-Ann Arbor, MI"
+   "Houston-The Woodlands-Sugar Land, TX"  "Houston-Pasadena, TX"
+   "Los Angeles-Long Beach-Anaheim, CA"  "Los Angeles-Long Beach, CA"
+   "Miami-Fort Lauderdale-West Palm Beach, FL"  "Miami-Port St. Lucie-Fort Lauderdale, FL"
+   "New York-Newark-Jersey City, NY-NJ-PA"  "New York-Newark, NY-NJ-CT-PA"
+   "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"  "Philadelphia-Reading-Camden, PA-NJ-DE-MD"
+   "Phoenix-Mesa-Scottsdale, AZ"  "Phoenix-Mesa, AZ"
+   "San Francisco-Oakland-Hayward, CA"  "San Jose-San Francisco-Oakland, CA"
+   "Seattle-Tacoma-Bellevue, WA"  "Seattle-Tacoma, WA"
+   "Washington-Arlington-Alexandria, DC-VA-MD-WV"  "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA"})
+
+(def csa-rev-map (set/map-invert combined-statistical-area-map))
 
 ;; (defn get-data-by-area [area]
 ;;   (let [pat (re-pattern (str "(?i).*" (->> (str/split area #"\s+") (str/join ".*")) ".*"))
@@ -153,6 +190,33 @@
                           (get-population+housing-units %))
                  (keys data-by-area))))
 
+
+(def metro-areas-topo-json
+  (-> "data/cb_2023_us_csa_500k_topo.json"
+      slurp
+      json/read-str
+      (update-in ["objects" "cb_2023_us_csa_500k" "geometries"]
+                 (fn [geometries]
+                   (mapv
+                    #(assoc-in % ["properties" "housing-units"]
+                               (get-in metro-populations+housing
+                                       [(get csa-rev-map
+                                             (get-in % ["properties" "NAME"]))
+                                        :num-housing-units]
+                                       0))
+                    geometries)))))
+
+#_(def metro-topo-populations
+  (into {}
+        (map #(vector
+               (-> metro-populations+housing
+                   (get (get combined-statistical-area-map %))
+                   :num-people)))
+        (mapv #(get-in % ["properties" "NAME"])
+              (get-in metro-areas-topo-json
+                      ["objects" "cb_2023_us_csa_500k" "geometries"]))))
+
+
 (comment
   ;; Represented areas
   (mapv metropolitan-areas
@@ -163,15 +227,26 @@
         avg-percent (/ (reduce #(+ %1 (:percent %2)) 0 data) (count data))]
     (prn total-people avg-percent)))
 
-
-(clerk/table (vals metro-populations+housing))
+(letfn [(map-vals [data]
+          [(:area data) (:num-people data) (:percent data) (:avg-unit-size data) (:num-housing-units data)])]
+  (clerk/table
+   (clerk/use-headers
+    (into [["Metro Area" "Population in multifamily housing"
+            "Percent of total population" "Average Unit Size" "Number of housing units"]]
+          (->> metro-populations+housing
+              vals
+              (sort-by :num-housing-units)
+              reverse
+              (mapv map-vals))))))
 
 (clerk/vl
- {:width 500
-  :height 300
-  ;; :data {:url "data/cb_2023_us_csa_500k_topo.json"
-  ;;        :format {:type "topojson"
-  ;;                 :feature "cb_2023_us_csa_500k"}}
-
+ {:width 700
+  :height 600
+  :data {:values metro-areas-topo-json
+         :format {:type "topojson"
+                  :feature "cb_2023_us_csa_500k"}}
   :projection {:type "albersUsa"}
-  :mark "geoshape"})
+  :mark "geoshape"
+                                        ;  :transform {}
+  :encoding {:color {:field "properties.housing-units" :type "quantitative"}}
+  })

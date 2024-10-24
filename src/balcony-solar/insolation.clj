@@ -2,6 +2,8 @@
   (:require [tablecloth.api :as tc]
             [balcony-solar.housing :as housing]
             [nextjournal.clerk :as clerk]
+            [clojure.java.io :as io]
+            [clojure.string :as str]
             [clojure.math :as math])
   (:import [java.time LocalDate]
            [java.lang Math]))
@@ -50,7 +52,47 @@
    "Birmingham-Hoover, AL" 33.53
    "Las Vegas-Henderson-Paradise, NV" 36.17})
 
+(def metro-states
+  {"Richmond, VA" "Virginia"
+   "Pittsburgh, PA" "Pennsylvania"
+   "Rochester, NY" "New York"
+   "Baltimore-Columbia-Towson, MD" "Maryland"
+   "Denver-Aurora-Lakewood, CO" "Colorado"
+   "New Orleans-Metairie, LA" "Louisiana"
+   "Memphis, TN-MS-AR" "Tennessee"
+   "Cincinnati, OH-KY-IN" "Ohio"
+   "San Jose-Sunnyvale-Santa Clara, CA" "California"
+   "Cleveland-Elyria, OH" "Ohio"
+   "Portland-Vancouver-Hillsboro, OR-WA" "Oregon"
+   "Kansas City, MO-KS" "Kansas"
+   "Oklahoma City, OK" "Oklahoma"
+   "Raleigh, NC" "North Carolina"
+   "San Antonio-New Braunfels, TX" "Texas"
+   "Tampa-St. Petersburg-Clearwater, FL" "Florida"
+   "Milwaukee-Waukesha-West Allis, WI" "Wisconsin"
+   "Minneapolis-St. Paul-Bloomington, MN-WI" "Minnesota"
+   "Birmingham-Hoover, AL" "Alabama"
+   "Las Vegas-Henderson-Paradise, NV" "Nevada"})
 
+^{::clerk/visibility {:code :hide :result :hide}}
+(def annual-electricity-prices
+  (transduce
+   (comp
+    (filter #(str/includes? % "residential"))
+    (map #(str/split % #","))
+    (map #(vector
+           (second (re-find #"(\w+)\s-*:\s-*residential" (first %)))
+           (subvec % 3))))
+   (completing
+    (fn [data [state prices]]
+      (assoc data state
+             (zipmap
+              ["Jul 2023" "Aug 2023" "Sep 2023" "Oct 2023" "Nov 2023" "Dec 2023" "Jan 2024" "Feb 2024" "Mar 2024" "Apr 2024" "May 2024" "Jun 2024" "Jul 2024"]
+                (mapv parse-double prices)))))
+   {}
+   (-> "data/Average_retail_price_of_electricity.csv"
+       (io/reader)
+       line-seq)))
 
 
 ;; (defn- read-stream-line [stream]
@@ -78,7 +120,6 @@
      (+ (* (Math/sin declination-angle) (Math/sin (- latitude slope)))
         (* (Math/cos declination-angle) (Math/cos hour-angle) (Math/cos (- latitude slope))))))
 
-#trace
 (defn- calc-incident-angle-factor
     "Attempts to compute cosine of angle of sun's rays incident on the collector based on following inputs
    Latitude (latitude), 
@@ -96,16 +137,16 @@
                        (* (Math/sin declination-angle) (Math/cos azimuth-angle) (Math/sin slope))))
           term-3 (* (Math/cos declination-angle) (Math/sin azimuth-angle) (Math/sin hour-angle) (Math/sin slope))]
       (+ term-1 term-2 term-3)))
-#trace
- (defn- calc-insolation-hour [latitude {:strs [Year Month Day Hour DNI]}]
-   (let [declination (calc-declination-angle Year Month Day)
-         angle-factor (calc-incident-angle-factor
-                       (Math/toRadians latitude)
-                       0
-                       Hour
-                       (Math/toRadians 90)
-                       (Math/toRadians declination))]
-     (Math/abs (* DNI angle-factor))))
+
+(defn- calc-insolation-hour [latitude {:strs [Year Month Day Hour DNI]}]
+  (let [declination (calc-declination-angle Year Month Day)
+        angle-factor (calc-incident-angle-factor
+                      (Math/toRadians latitude)
+                      0
+                      Hour
+                      (Math/toRadians 90)
+                      (Math/toRadians declination))]
+    (Math/abs (* DNI angle-factor))))
 
 
 #_(defn- calc-avg-housing-surface-area [area]
@@ -113,7 +154,6 @@
         porch-area (* 0.5 (math/sqrt avg-unit-size))]
     (* porch-area num-housing-units)))
 
-#trace
 (defn- calc-yearly-power-generation [area]
   (let [ds (tc/dataset (str "data/insolation/" (get insolation-files area)))
         lat (get latitudes area)]
@@ -129,11 +169,94 @@
 
 
 (def insolation-by-area
-  (into []
-        (map #(let [[gen-total raw-total] (calc-yearly-power-generation %)]
-                  (vector % (long gen-total) raw-total)))
+  (into {}
+        (map #(let [[gen-total raw-total] (calc-yearly-power-generation %)
+                    avg-cost (long (/
+                                    (reduce
+                                     +
+                                     (->> %
+                                          (get metro-states)
+                                          (get annual-electricity-prices)
+                                          vals))
+                                    12))]
+                [% [(long gen-total) raw-total avg-cost
+                    (long (/ (* gen-total avg-cost) 100))]]))
         (keys housing/metro-populations+housing)))
 
-(clerk/table
- (clerk/use-headers
-  (into [["Metro Area" "Avg Housing Unit Power Generation (kW/year)" "Total insolation"]] insolation-by-area)))
+(clerk/col {:nextjournal.clerk/width :full}
+           (clerk/table
+            (clerk/use-headers
+             (into [["Metro Area" "Avg Housing Unit Power Generation (kWH/year)" "Total insolation" "Avergage Electricity Cost (cents/kWH)" "Average Savings($)"]]
+                   (mapv flatten
+                         (reverse (sort-by (comp first val) insolation-by-area))))))
+           (clerk/table [["Total potential power (MWH)"
+                          (reduce
+                           (fn [total [area [power]]]
+                             (+ total
+                                (long
+                                 (/ (* (get-in housing/metro-populations+housing
+                                               [area :num-housing-units])
+                                       power)
+                                    1000))))
+                           0
+                           insolation-by-area)
+                          "Total potential savings ($)"
+                          (reduce
+                           (fn [total [area [_ _ _ savings]]]
+                             (+ total
+                                (* (get-in housing/metro-populations+housing
+                                           [area :num-housing-units])
+                                   savings)))
+                           0
+                           insolation-by-area)]]))
+
+
+
+(clerk/vl
+ {:width 700
+  :height 600
+  :data {:values (update-in housing/metro-areas-topo-json
+                            ["objects" "cb_2023_us_csa_500k" "geometries"]
+                            (fn [geometries]
+                              (mapv
+                               #(assoc-in % ["properties" "power"]
+                                          (->> (get-in % ["properties" "NAME"])
+                                               (get housing/csa-rev-map)
+                                               (get insolation-by-area)
+                                               first)
+                                          #_(first
+                                           (get insolation-by-area
+                                                (get housing/csa-rev-map
+                                                     (get-in % ["properties" "NAME"]))
+                                                [0])))
+                               geometries)))
+         :format {:type "topojson"
+                  :feature "cb_2023_us_csa_500k"}}
+  :projection {:type "albersUsa"}
+  :mark "geoshape"
+  :encoding {:color {:field "properties.power" :type "quantitative"}}})
+
+
+(clerk/vl
+ {:width 700
+  :height 600
+  :data {:values (update-in housing/metro-areas-topo-json
+                            ["objects" "cb_2023_us_csa_500k" "geometries"]
+                            (fn [geometries]
+                              (mapv
+                               #(assoc-in % ["properties" "Avg_Electricity_Price"]
+                                          (/
+                                           (reduce
+                                            +
+                                            (->> (get-in % ["properties" "NAME"])
+                                                 (get housing/csa-rev-map)
+                                                 (get metro-states)
+                                                 (get annual-electricity-prices)
+                                                 vals))
+                                           12))
+                               geometries)))
+         :format {:type "topojson"
+                  :feature "cb_2023_us_csa_500k"}}
+  :projection {:type "albersUsa"}
+  :mark "geoshape"
+  :encoding {:color {:field "properties.Avg_Electricity_Price" :type "quantitative"}}})

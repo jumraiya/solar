@@ -1,0 +1,440 @@
+"Average retail price of electricity"
+"https://www.eia.gov/electricity/data/browser/#/topic/7?agg=0,1&geo=vvvvvvvvvvvvo&endsec=vg&linechart=ELEC.PRICE.TX-ALL.M~ELEC.PRICE.TX-RES.M~ELEC.PRICE.TX-COM.M~ELEC.PRICE.TX-IND.M&columnchart=ELEC.PRICE.TX-ALL.M~ELEC.PRICE.TX-RES.M~ELEC.PRICE.TX-COM.M~ELEC.PRICE.TX-IND.M&map=ELEC.PRICE.US-ALL.M&freq=M&start=202307&end=202407&ctype=linechart&ltype=pin&rtype=s&maptype=0&rse=0&pin="
+"Thu Oct 24 2024 00:21:16 GMT+0000 (Greenwich Mean Time)"
+"Source: U.S. Energy Information Administration"
+"description","units","source key","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024","Mar 2024","Apr 2024","May 2024","Jun 2024","Jul 2024"
+"Average retail price of electricity","cents per kilowatthour",,,,,,,,,,,,,,
+"United States","cents per kilowatthour","ELEC.PRICE.US-ALL.M",,,,,,,,,,,,,
+"United States : all sectors","cents per kilowatthour","ELEC.PRICE.US-ALL.M",13.06,13.27,13.14,12.67,12.44,12.34,12.73,12.80,12.73,12.71,12.60,13.26,13.76
+"United States : residential","cents per kilowatthour","ELEC.PRICE.US-RES.M",15.86,15.91,16.27,16.48,16.19,15.69,15.45,16.10,16.68,16.88,16.43,16.41,16.62
+"United States : commercial","cents per kilowatthour","ELEC.PRICE.US-COM.M",12.91,13.08,13.07,12.73,12.43,12.24,12.68,12.81,12.76,12.66,12.48,13.10,13.58
+"United States : industrial","cents per kilowatthour","ELEC.PRICE.US-IND.M",8.36,8.90,8.43,8.01,7.79,7.61,8.10,7.81,7.73,7.82,7.95,8.44,8.81
+"United States : transportation","cents per kilowatthour","ELEC.PRICE.US-TRA.M",12.77,13.26,14.45,12.65,12.60,12.34,12.68,13.20,11.91,12.64,12.29,12.76,13.15
+"United States : other","cents per kilowatthour","ELEC.PRICE.US-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"New England","cents per kilowatthour","ELEC.PRICE.NEW-ALL.M",,,,,,,,,,,,,
+"New England : all sectors","cents per kilowatthour","ELEC.PRICE.NEW-ALL.M",21.82,22.14,21.98,22.02,22.05,22.67,23.27,23.44,22.83,22.33,21.48,21.95,22.75
+"New England : residential","cents per kilowatthour","ELEC.PRICE.NEW-RES.M",26.84,27.11,27.37,28.05,27.47,27.52,27.32,27.99,27.60,27.31,26.40,26.08,26.77
+"New England : commercial","cents per kilowatthour","ELEC.PRICE.NEW-COM.M",18.41,18.94,18.85,19.19,19.18,19.63,20.77,20.79,20.16,19.68,19.06,19.91,20.09
+"New England : industrial","cents per kilowatthour","ELEC.PRICE.NEW-IND.M",15.83,15.70,15.72,15.77,15.75,16.21,16.95,16.62,16.15,15.93,15.76,16.02,16.56
+"New England : transportation","cents per kilowatthour","ELEC.PRICE.NEW-TRA.M",12.52,13.43,12.49,10.94,10.68,12.72,13.34,13.26,12.01,12.39,12.30,12.36,12.51
+"New England : other","cents per kilowatthour","ELEC.PRICE.NEW-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Connecticut","cents per kilowatthour","ELEC.PRICE.CT-ALL.M",,,,,,,,,,,,,
+"Connecticut : all sectors","cents per kilowatthour","ELEC.PRICE.CT-ALL.M",22.28,23.91,23.94,23.20,22.48,23.04,23.77,24.66,24.03,24.26,22.15,22.19,23.91
+"Connecticut : residential","cents per kilowatthour","ELEC.PRICE.CT-RES.M",26.63,27.94,29.31,29.01,26.98,26.89,27.40,29.52,29.12,29.58,26.76,26.00,28.02
+"Connecticut : commercial","cents per kilowatthour","ELEC.PRICE.CT-COM.M",18.20,20.77,19.98,19.90,19.37,19.64,20.56,20.85,20.40,20.82,19.37,19.43,20.05
+"Connecticut : industrial","cents per kilowatthour","ELEC.PRICE.CT-IND.M",15.66,15.90,16.08,15.95,15.22,16.28,16.53,16.97,15.79,15.90,15.82,15.53,17.26
+"Connecticut : transportation","cents per kilowatthour","ELEC.PRICE.CT-TRA.M",22.48,22.64,20.36,16.09,16.00,19.57,18.36,17.88,15.86,16.04,16.03,15.88,16.50
+"Connecticut : other","cents per kilowatthour","ELEC.PRICE.CT-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Maine","cents per kilowatthour","ELEC.PRICE.ME-ALL.M",,,,,,,,,,,,,
+"Maine : all sectors","cents per kilowatthour","ELEC.PRICE.ME-ALL.M",20.93,20.15,20.20,21.20,21.56,22.14,21.74,20.98,19.33,18.11,17.96,18.15,18.57
+"Maine : residential","cents per kilowatthour","ELEC.PRICE.ME-RES.M",27.73,25.37,26.79,29.06,28.46,27.99,25.89,24.95,22.25,20.47,20.48,22.26,22.59
+"Maine : commercial","cents per kilowatthour","ELEC.PRICE.ME-COM.M",17.73,17.68,16.94,17.74,18.13,19.04,19.34,18.92,18.34,17.61,18.10,17.05,16.88
+"Maine : industrial","cents per kilowatthour","ELEC.PRICE.ME-IND.M",12.16,12.59,12.47,13.15,12.96,13.70,15.26,14.54,13.55,13.00,12.56,12.47,13.32
+"Maine : transportation","cents per kilowatthour","ELEC.PRICE.ME-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Maine : other","cents per kilowatthour","ELEC.PRICE.ME-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Massachusetts","cents per kilowatthour","ELEC.PRICE.MA-ALL.M",,,,,,,,,,,,,
+"Massachusetts : all sectors","cents per kilowatthour","ELEC.PRICE.MA-ALL.M",22.08,22.32,22.22,22.02,22.34,23.10,23.88,24.23,24.00,23.25,22.40,23.42,24.17
+"Massachusetts : residential","cents per kilowatthour","ELEC.PRICE.MA-RES.M",27.43,28.02,28.18,28.19,28.41,28.94,28.34,29.25,29.66,29.50,28.70,28.15,28.84
+"Massachusetts : commercial","cents per kilowatthour","ELEC.PRICE.MA-COM.M",18.72,18.53,18.71,19.04,19.29,19.74,21.32,21.37,20.78,19.76,18.90,20.91,21.04
+"Massachusetts : industrial","cents per kilowatthour","ELEC.PRICE.MA-IND.M",17.94,17.67,17.44,17.47,17.67,17.66,18.53,17.99,17.97,17.78,17.52,18.09,18.33
+"Massachusetts : transportation","cents per kilowatthour","ELEC.PRICE.MA-TRA.M",6.62,6.75,6.79,6.65,6.60,6.94,9.83,9.54,9.40,9.38,8.74,9.04,8.76
+"Massachusetts : other","cents per kilowatthour","ELEC.PRICE.MA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"New Hampshire","cents per kilowatthour","ELEC.PRICE.NH-ALL.M",,,,,,,,,,,,,
+"New Hampshire : all sectors","cents per kilowatthour","ELEC.PRICE.NH-ALL.M",23.25,21.40,19.91,20.84,21.39,21.53,22.00,21.25,20.14,20.23,20.09,19.91,19.74
+"New Hampshire : residential","cents per kilowatthour","ELEC.PRICE.NH-RES.M",28.96,26.13,23.24,25.49,25.58,24.74,25.07,23.76,22.43,23.00,23.01,22.44,21.71
+"New Hampshire : commercial","cents per kilowatthour","ELEC.PRICE.NH-COM.M",19.75,18.76,18.49,19.06,19.38,19.56,20.30,20.23,19.21,19.25,19.44,19.25,18.92
+"New Hampshire : industrial","cents per kilowatthour","ELEC.PRICE.NH-IND.M",15.28,14.93,15.32,15.28,15.95,16.44,17.23,16.79,16.45,15.84,15.91,16.07,15.96
+"New Hampshire : transportation","cents per kilowatthour","ELEC.PRICE.NH-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"New Hampshire : other","cents per kilowatthour","ELEC.PRICE.NH-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Rhode Island","cents per kilowatthour","ELEC.PRICE.RI-ALL.M",,,,,,,,,,,,,
+"Rhode Island : all sectors","cents per kilowatthour","ELEC.PRICE.RI-ALL.M",20.34,21.69,21.75,23.64,23.40,24.63,25.58,25.08,23.46,22.60,22.88,22.45,22.85
+"Rhode Island : residential","cents per kilowatthour","ELEC.PRICE.RI-RES.M",24.31,25.54,25.27,30.08,29.78,30.86,31.22,30.97,30.26,27.93,28.09,27.03,25.60
+"Rhode Island : commercial","cents per kilowatthour","ELEC.PRICE.RI-COM.M",16.60,18.64,19.07,19.77,19.27,20.16,21.20,20.90,19.07,19.13,19.85,19.53,20.46
+"Rhode Island : industrial","cents per kilowatthour","ELEC.PRICE.RI-IND.M",18.88,18.51,19.07,18.87,18.54,19.83,20.38,19.82,18.75,19.47,19.83,19.97,21.21
+"Rhode Island : transportation","cents per kilowatthour","ELEC.PRICE.RI-TRA.M",16.73,16.75,17.44,17.42,16.52,20.94,20.29,20.43,20.46,19.41,20.63,21.87,22.18
+"Rhode Island : other","cents per kilowatthour","ELEC.PRICE.RI-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Vermont","cents per kilowatthour","ELEC.PRICE.VT-ALL.M",,,,,,,,,,,,,
+"Vermont : all sectors","cents per kilowatthour","ELEC.PRICE.VT-ALL.M",17.38,17.07,17.80,18.21,17.95,18.17,17.98,18.11,18.37,18.13,18.13,18.37,18.07
+"Vermont : residential","cents per kilowatthour","ELEC.PRICE.VT-RES.M",20.45,20.47,21.21,22.11,21.57,21.09,20.98,21.22,21.72,21.85,22.30,21.91,21.25
+"Vermont : commercial","cents per kilowatthour","ELEC.PRICE.VT-COM.M",17.78,17.37,18.31,18.88,18.47,18.57,18.35,18.29,18.87,18.65,18.75,18.88,18.40
+"Vermont : industrial","cents per kilowatthour","ELEC.PRICE.VT-IND.M",11.04,11.04,11.39,11.30,10.98,12.04,11.53,11.83,11.70,11.30,11.14,11.75,11.43
+"Vermont : transportation","cents per kilowatthour","ELEC.PRICE.VT-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Vermont : other","cents per kilowatthour","ELEC.PRICE.VT-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Middle Atlantic","cents per kilowatthour","ELEC.PRICE.MAT-ALL.M",,,,,,,,,,,,,
+"Middle Atlantic : all sectors","cents per kilowatthour","ELEC.PRICE.MAT-ALL.M",16.21,16.00,16.13,15.22,15.37,15.07,15.51,15.88,15.33,15.25,15.39,16.53,17.28
+"Middle Atlantic : residential","cents per kilowatthour","ELEC.PRICE.MAT-RES.M",19.70,19.74,20.11,19.67,19.76,19.36,19.61,19.59,19.72,19.78,20.02,20.71,21.10
+"Middle Atlantic : commercial","cents per kilowatthour","ELEC.PRICE.MAT-COM.M",16.33,16.06,16.56,15.61,15.47,14.49,14.90,15.40,14.99,15.15,15.14,16.29,16.78
+"Middle Atlantic : industrial","cents per kilowatthour","ELEC.PRICE.MAT-IND.M",7.96,7.89,7.76,7.72,7.78,7.76,8.27,8.19,8.10,7.93,8.29,8.29,8.68
+"Middle Atlantic : transportation","cents per kilowatthour","ELEC.PRICE.MAT-TRA.M",14.73,15.18,17.58,14.21,14.82,13.77,13.27,14.31,13.07,13.74,12.82,13.81,14.52
+"Middle Atlantic : other","cents per kilowatthour","ELEC.PRICE.MAT-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"New Jersey","cents per kilowatthour","ELEC.PRICE.NJ-ALL.M",,,,,,,,,,,,,
+"New Jersey : all sectors","cents per kilowatthour","ELEC.PRICE.NJ-ALL.M",16.44,16.13,15.68,14.70,14.75,15.04,15.00,15.16,15.15,15.62,15.97,17.32,18.14
+"New Jersey : residential","cents per kilowatthour","ELEC.PRICE.NJ-RES.M",18.42,18.51,17.97,17.46,17.47,17.56,17.90,17.69,18.04,18.45,18.58,19.88,20.70
+"New Jersey : commercial","cents per kilowatthour","ELEC.PRICE.NJ-COM.M",14.89,14.58,14.41,13.63,13.64,13.57,13.23,13.75,14.05,14.54,14.83,15.59,15.90
+"New Jersey : industrial","cents per kilowatthour","ELEC.PRICE.NJ-IND.M",12.53,12.32,12.14,11.08,10.71,12.03,11.54,12.04,12.01,11.48,11.75,11.94,13.10
+"New Jersey : transportation","cents per kilowatthour","ELEC.PRICE.NJ-TRA.M",12.95,12.18,11.86,11.20,11.59,11.66,11.97,10.83,10.56,10.38,10.96,11.15,10.34
+"New Jersey : other","cents per kilowatthour","ELEC.PRICE.NJ-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"New York","cents per kilowatthour","ELEC.PRICE.NY-ALL.M",,,,,,,,,,,,,
+"New York : all sectors","cents per kilowatthour","ELEC.PRICE.NY-ALL.M",19.42,19.30,19.90,18.48,18.37,17.73,18.88,19.37,18.42,18.09,18.48,20.07,21.26
+"New York : residential","cents per kilowatthour","ELEC.PRICE.NY-RES.M",22.29,22.26,23.24,21.99,22.85,22.42,23.44,24.23,23.64,22.97,23.60,24.51,25.01
+"New York : commercial","cents per kilowatthour","ELEC.PRICE.NY-COM.M",19.69,19.43,20.17,18.84,18.34,16.67,18.07,18.58,17.46,17.56,17.72,19.48,20.51
+"New York : industrial","cents per kilowatthour","ELEC.PRICE.NY-IND.M",7.02,7.13,6.98,6.54,6.66,6.34,7.54,7.26,8.01,7.63,8.72,8.77,9.72
+"New York : transportation","cents per kilowatthour","ELEC.PRICE.NY-TRA.M",15.83,16.34,19.09,15.26,15.78,14.38,14.11,15.29,14.50,14.68,13.77,14.89,15.87
+"New York : other","cents per kilowatthour","ELEC.PRICE.NY-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Pennsylvania","cents per kilowatthour","ELEC.PRICE.PA-ALL.M",,,,,,,,,,,,,
+"Pennsylvania : all sectors","cents per kilowatthour","ELEC.PRICE.PA-ALL.M",12.67,12.48,12.30,12.18,12.60,12.55,12.75,13.05,12.81,12.68,12.62,12.42,12.71
+"Pennsylvania : residential","cents per kilowatthour","ELEC.PRICE.PA-RES.M",17.94,17.89,18.02,18.44,18.11,17.52,17.39,17.02,17.60,17.95,18.10,17.68,17.45
+"Pennsylvania : commercial","cents per kilowatthour","ELEC.PRICE.PA-COM.M",11.09,10.92,11.12,11.19,11.29,11.10,10.84,11.15,11.54,11.49,11.31,10.74,10.92
+"Pennsylvania : industrial","cents per kilowatthour","ELEC.PRICE.PA-IND.M",7.67,7.54,7.49,7.63,7.75,7.67,8.05,8.00,7.64,7.62,7.75,7.68,7.81
+"Pennsylvania : transportation","cents per kilowatthour","ELEC.PRICE.PA-TRA.M",10.04,11.02,10.60,10.83,10.08,10.71,10.07,10.45,9.26,13.84,9.90,9.69,10.32
+"Pennsylvania : other","cents per kilowatthour","ELEC.PRICE.PA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"East North Central","cents per kilowatthour","ELEC.PRICE.ENC-ALL.M",,,,,,,,,,,,,
+"East North Central : all sectors","cents per kilowatthour","ELEC.PRICE.ENC-ALL.M",12.17,12.04,11.83,11.80,11.79,11.82,12.15,12.12,11.90,12.08,12.26,12.60,12.68
+"East North Central : residential","cents per kilowatthour","ELEC.PRICE.ENC-RES.M",16.10,15.72,15.99,16.51,16.18,15.93,15.65,16.06,16.48,17.02,17.07,16.69,16.42
+"East North Central : commercial","cents per kilowatthour","ELEC.PRICE.ENC-COM.M",11.82,11.96,11.90,11.94,11.94,11.66,11.89,12.20,12.14,12.20,12.36,12.40,12.33
+"East North Central : industrial","cents per kilowatthour","ELEC.PRICE.ENC-IND.M",7.95,8.04,7.83,7.86,7.78,7.72,8.19,8.05,7.80,7.95,8.08,8.20,8.45
+"East North Central : transportation","cents per kilowatthour","ELEC.PRICE.ENC-TRA.M",6.91,6.79,7.19,7.35,5.94,7.43,10.19,9.96,5.54,8.82,9.06,7.99,8.27
+"East North Central : other","cents per kilowatthour","ELEC.PRICE.ENC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Illinois","cents per kilowatthour","ELEC.PRICE.IL-ALL.M",,,,,,,,,,,,,
+"Illinois : all sectors","cents per kilowatthour","ELEC.PRICE.IL-ALL.M",11.69,11.26,11.39,11.49,11.51,11.25,11.93,12.13,11.53,12.20,12.91,12.95,12.65
+"Illinois : residential","cents per kilowatthour","ELEC.PRICE.IL-RES.M",14.81,13.74,14.70,15.75,15.65,14.84,14.93,15.72,16.10,16.68,16.71,16.15,15.35
+"Illinois : commercial","cents per kilowatthour","ELEC.PRICE.IL-COM.M",11.25,11.02,11.30,11.12,11.01,10.72,11.36,11.66,11.09,11.93,12.73,12.50,12.19
+"Illinois : industrial","cents per kilowatthour","ELEC.PRICE.IL-IND.M",8.07,8.38,8.03,8.25,8.19,8.10,8.94,8.96,8.20,8.81,9.10,9.24,9.42
+"Illinois : transportation","cents per kilowatthour","ELEC.PRICE.IL-TRA.M",6.78,6.51,7.00,7.14,5.53,7.29,10.41,10.35,5.20,8.76,9.01,7.79,8.10
+"Illinois : other","cents per kilowatthour","ELEC.PRICE.IL-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Indiana","cents per kilowatthour","ELEC.PRICE.IN-ALL.M",,,,,,,,,,,,,
+"Indiana : all sectors","cents per kilowatthour","ELEC.PRICE.IN-ALL.M",11.14,11.32,10.78,11.12,10.93,11.28,11.37,11.30,11.14,11.31,11.12,11.44,11.64
+"Indiana : residential","cents per kilowatthour","ELEC.PRICE.IN-RES.M",14.47,14.17,14.10,15.17,14.64,14.58,13.75,14.11,14.53,15.33,15.27,14.89,14.80
+"Indiana : commercial","cents per kilowatthour","ELEC.PRICE.IN-COM.M",11.90,12.26,11.76,12.09,12.16,12.53,12.46,12.52,12.86,12.70,12.59,12.57,12.49
+"Indiana : industrial","cents per kilowatthour","ELEC.PRICE.IN-IND.M",7.82,8.10,7.69,7.93,7.71,7.87,8.20,8.16,7.99,8.03,7.96,7.82,8.20
+"Indiana : transportation","cents per kilowatthour","ELEC.PRICE.IN-TRA.M",10.62,14.01,14.88,13.29,12.18,11.56,11.86,11.18,12.04,12.19,12.60,11.91,11.64
+"Indiana : other","cents per kilowatthour","ELEC.PRICE.IN-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Michigan","cents per kilowatthour","ELEC.PRICE.MI-ALL.M",,,,,,,,,,,,,
+"Michigan : all sectors","cents per kilowatthour","ELEC.PRICE.MI-ALL.M",14.28,14.03,13.73,13.62,13.70,13.78,13.95,13.67,13.66,13.83,14.26,14.85,14.81
+"Michigan : residential","cents per kilowatthour","ELEC.PRICE.MI-RES.M",19.43,19.57,19.49,19.20,18.59,18.70,18.34,18.57,18.70,19.23,19.44,19.88,19.66
+"Michigan : commercial","cents per kilowatthour","ELEC.PRICE.MI-COM.M",13.37,13.58,13.23,13.47,13.62,13.23,13.70,13.73,13.80,14.17,14.39,14.53,14.27
+"Michigan : industrial","cents per kilowatthour","ELEC.PRICE.MI-IND.M",8.20,8.13,8.18,8.26,8.52,8.29,8.45,8.02,8.00,8.20,8.67,8.51,8.42
+"Michigan : transportation","cents per kilowatthour","ELEC.PRICE.MI-TRA.M",14.05,14.12,13.71,14.43,14.35,13.68,13.78,14.43,14.28,14.22,14.62,13.93,14.38
+"Michigan : other","cents per kilowatthour","ELEC.PRICE.MI-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Ohio","cents per kilowatthour","ELEC.PRICE.OH-ALL.M",,,,,,,,,,,,,
+"Ohio : all sectors","cents per kilowatthour","ELEC.PRICE.OH-ALL.M",11.39,11.30,11.11,11.00,11.01,11.06,11.50,11.46,11.36,11.24,11.02,11.36,11.61
+"Ohio : residential","cents per kilowatthour","ELEC.PRICE.OH-RES.M",15.73,15.63,15.59,15.89,15.65,15.57,15.58,15.77,16.28,16.75,16.65,15.92,15.86
+"Ohio : commercial","cents per kilowatthour","ELEC.PRICE.OH-COM.M",10.57,10.81,10.90,11.06,11.12,10.56,10.51,11.20,11.33,10.69,10.41,10.47,10.54
+"Ohio : industrial","cents per kilowatthour","ELEC.PRICE.OH-IND.M",7.20,6.93,6.91,7.02,6.83,6.71,7.25,7.07,7.12,6.96,6.97,7.15,7.40
+"Ohio : transportation","cents per kilowatthour","ELEC.PRICE.OH-TRA.M",6.02,6.34,6.68,6.72,6.15,6.14,6.59,6.15,7.05,7.23,6.44,6.27,6.79
+"Ohio : other","cents per kilowatthour","ELEC.PRICE.OH-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Wisconsin","cents per kilowatthour","ELEC.PRICE.WI-ALL.M",,,,,,,,,,,,,
+"Wisconsin : all sectors","cents per kilowatthour","ELEC.PRICE.WI-ALL.M",13.23,13.37,13.06,12.47,12.49,12.53,12.65,12.59,12.37,12.26,12.57,13.06,13.48
+"Wisconsin : residential","cents per kilowatthour","ELEC.PRICE.WI-RES.M",17.02,17.19,17.41,17.14,16.85,16.58,16.46,16.93,16.96,17.31,17.82,17.60,17.43
+"Wisconsin : commercial","cents per kilowatthour","ELEC.PRICE.WI-COM.M",13.00,13.23,13.13,12.78,12.58,12.47,12.39,12.63,12.54,12.36,12.60,12.77,13.12
+"Wisconsin : industrial","cents per kilowatthour","ELEC.PRICE.WI-IND.M",9.29,9.58,9.20,8.42,8.45,8.28,8.50,8.41,7.97,8.09,8.37,8.95,9.49
+"Wisconsin : transportation","cents per kilowatthour","ELEC.PRICE.WI-TRA.M",16.50,18.57,19.26,21.34,15.74,17.48,20.10,17.85,18.72,17.71,18.37,18.40,18.62
+"Wisconsin : other","cents per kilowatthour","ELEC.PRICE.WI-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"West North Central","cents per kilowatthour","ELEC.PRICE.WNC-ALL.M",,,,,,,,,,,,,
+"West North Central : all sectors","cents per kilowatthour","ELEC.PRICE.WNC-ALL.M",11.54,11.52,11.16,10.03,9.82,9.66,9.90,9.98,10.11,10.09,10.23,11.62,11.81
+"West North Central : residential","cents per kilowatthour","ELEC.PRICE.WNC-RES.M",14.30,14.21,13.95,13.22,12.67,12.06,11.73,12.33,13.04,13.30,13.73,14.72,14.76
+"West North Central : commercial","cents per kilowatthour","ELEC.PRICE.WNC-COM.M",11.24,11.25,11.08,9.99,9.72,9.47,9.69,10.01,10.11,10.05,9.95,11.26,11.46
+"West North Central : industrial","cents per kilowatthour","ELEC.PRICE.WNC-IND.M",8.51,8.62,8.31,7.40,7.28,7.16,7.57,7.35,7.34,7.36,7.50,8.48,8.54
+"West North Central : transportation","cents per kilowatthour","ELEC.PRICE.WNC-TRA.M",13.12,12.64,13.01,12.44,10.47,9.58,9.16,9.60,9.73,10.54,10.38,11.39,13.19
+"West North Central : other","cents per kilowatthour","ELEC.PRICE.WNC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Iowa","cents per kilowatthour","ELEC.PRICE.IA-ALL.M",,,,,,,,,,,,,
+"Iowa : all sectors","cents per kilowatthour","ELEC.PRICE.IA-ALL.M",11.30,11.22,10.47,8.59,8.62,8.42,8.93,8.54,8.60,8.58,9.01,10.74,11.02
+"Iowa : residential","cents per kilowatthour","ELEC.PRICE.IA-RES.M",15.17,15.17,14.12,13.46,12.91,11.95,11.85,12.15,12.85,13.10,14.23,14.82,14.92
+"Iowa : commercial","cents per kilowatthour","ELEC.PRICE.IA-COM.M",11.93,11.95,11.24,9.69,9.66,9.19,9.73,9.46,9.53,9.53,10.11,11.35,11.62
+"Iowa : industrial","cents per kilowatthour","ELEC.PRICE.IA-IND.M",8.64,8.59,8.22,6.15,6.18,5.97,6.49,6.07,6.01,6.11,6.26,8.18,8.29
+"Iowa : transportation","cents per kilowatthour","ELEC.PRICE.IA-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Iowa : other","cents per kilowatthour","ELEC.PRICE.IA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Kansas","cents per kilowatthour","ELEC.PRICE.KS-ALL.M",,,,,,,,,,,,,
+"Kansas : all sectors","cents per kilowatthour","ELEC.PRICE.KS-ALL.M",11.18,11.07,10.73,10.45,10.17,10.16,10.89,11.04,10.99,11.00,10.78,11.91,12.44
+"Kansas : residential","cents per kilowatthour","ELEC.PRICE.KS-RES.M",13.48,13.35,13.20,13.45,13.04,12.72,13.04,13.74,14.24,14.38,14.14,14.22,14.97
+"Kansas : commercial","cents per kilowatthour","ELEC.PRICE.KS-COM.M",11.10,10.85,10.84,10.70,10.35,10.27,10.50,11.03,11.15,11.05,10.67,11.68,12.49
+"Kansas : industrial","cents per kilowatthour","ELEC.PRICE.KS-IND.M",7.57,7.61,7.22,7.29,7.26,7.14,8.10,7.95,7.83,7.85,7.66,8.56,8.35
+"Kansas : transportation","cents per kilowatthour","ELEC.PRICE.KS-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Kansas : other","cents per kilowatthour","ELEC.PRICE.KS-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Minnesota","cents per kilowatthour","ELEC.PRICE.MN-ALL.M",,,,,,,,,,,,,
+"Minnesota : all sectors","cents per kilowatthour","ELEC.PRICE.MN-ALL.M",12.87,13.10,12.74,12.26,11.66,11.46,11.85,11.82,11.92,11.98,12.31,13.13,13.33
+"Minnesota : residential","cents per kilowatthour","ELEC.PRICE.MN-RES.M",15.60,15.61,15.44,15.45,14.52,14.09,14.04,14.36,14.69,15.08,15.69,16.38,16.32
+"Minnesota : commercial","cents per kilowatthour","ELEC.PRICE.MN-COM.M",13.12,13.26,12.97,12.36,11.83,11.39,11.51,11.68,11.83,11.92,12.19,13.23,13.10
+"Minnesota : industrial","cents per kilowatthour","ELEC.PRICE.MN-IND.M",9.50,9.85,9.70,9.31,8.61,8.44,9.13,8.94,8.96,8.89,9.28,9.51,9.79
+"Minnesota : transportation","cents per kilowatthour","ELEC.PRICE.MN-TRA.M",13.49,13.40,12.53,12.40,12.34,10.52,11.31,12.08,11.91,13.42,13.76,13.69,13.44
+"Minnesota : other","cents per kilowatthour","ELEC.PRICE.MN-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Missouri","cents per kilowatthour","ELEC.PRICE.MO-ALL.M",,,,,,,,,,,,,
+"Missouri : all sectors","cents per kilowatthour","ELEC.PRICE.MO-ALL.M",12.63,12.51,12.20,10.12,10.07,9.88,9.67,9.98,10.57,10.38,10.32,12.69,12.86
+"Missouri : residential","cents per kilowatthour","ELEC.PRICE.MO-RES.M",14.42,14.25,14.03,12.20,11.98,11.33,10.82,11.43,12.56,12.52,12.62,14.64,14.73
+"Missouri : commercial","cents per kilowatthour","ELEC.PRICE.MO-COM.M",11.75,11.68,11.63,9.35,9.29,9.16,8.82,9.33,9.78,9.59,9.46,11.75,11.95
+"Missouri : industrial","cents per kilowatthour","ELEC.PRICE.MO-IND.M",8.91,8.97,8.59,7.40,7.24,7.26,7.42,7.20,7.60,7.36,7.27,8.85,9.02
+"Missouri : transportation","cents per kilowatthour","ELEC.PRICE.MO-TRA.M",12.86,12.18,13.31,12.48,8.97,8.63,7.70,7.95,8.23,8.60,8.43,9.88,13.08
+"Missouri : other","cents per kilowatthour","ELEC.PRICE.MO-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Nebraska","cents per kilowatthour","ELEC.PRICE.NE-ALL.M",,,,,,,,,,,,,
+"Nebraska : all sectors","cents per kilowatthour","ELEC.PRICE.NE-ALL.M",9.89,9.85,9.73,8.87,8.87,8.79,8.80,8.98,8.96,9.16,9.08,9.98,9.86
+"Nebraska : residential","cents per kilowatthour","ELEC.PRICE.NE-RES.M",12.35,12.19,12.32,11.67,11.26,10.47,9.85,10.72,11.61,11.85,12.22,12.92,12.27
+"Nebraska : commercial","cents per kilowatthour","ELEC.PRICE.NE-COM.M",9.31,9.23,9.31,8.57,8.62,8.51,8.94,9.22,9.38,9.43,8.28,9.29,9.18
+"Nebraska : industrial","cents per kilowatthour","ELEC.PRICE.NE-IND.M",8.23,8.47,7.94,7.08,7.26,7.32,7.53,7.26,6.85,7.31,7.68,8.26,8.28
+"Nebraska : transportation","cents per kilowatthour","ELEC.PRICE.NE-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Nebraska : other","cents per kilowatthour","ELEC.PRICE.NE-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"North Dakota","cents per kilowatthour","ELEC.PRICE.ND-ALL.M",,,,,,,,,,,,,
+"North Dakota : all sectors","cents per kilowatthour","ELEC.PRICE.ND-ALL.M",8.15,8.38,8.28,7.98,7.86,7.60,7.99,8.01,7.85,7.81,7.95,8.15,8.19
+"North Dakota : residential","cents per kilowatthour","ELEC.PRICE.ND-RES.M",12.63,12.55,12.83,11.71,10.77,10.27,9.88,10.50,10.44,11.33,13.04,13.65,12.90
+"North Dakota : commercial","cents per kilowatthour","ELEC.PRICE.ND-COM.M",7.37,7.85,7.78,7.55,7.10,6.77,7.80,7.95,7.38,7.23,7.30,7.41,7.61
+"North Dakota : industrial","cents per kilowatthour","ELEC.PRICE.ND-IND.M",7.35,7.39,7.35,7.20,7.34,7.19,7.17,7.07,7.16,7.12,7.12,7.26,7.09
+"North Dakota : transportation","cents per kilowatthour","ELEC.PRICE.ND-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"North Dakota : other","cents per kilowatthour","ELEC.PRICE.ND-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"South Dakota","cents per kilowatthour","ELEC.PRICE.SD-ALL.M",,,,,,,,,,,,,
+"South Dakota : all sectors","cents per kilowatthour","ELEC.PRICE.SD-ALL.M",10.98,10.95,10.82,10.65,10.33,10.24,10.03,10.39,10.65,10.72,10.93,11.54,11.37
+"South Dakota : residential","cents per kilowatthour","ELEC.PRICE.SD-RES.M",13.30,13.07,13.24,13.05,12.21,11.80,11.18,11.79,12.31,12.84,13.63,14.15,13.68
+"South Dakota : commercial","cents per kilowatthour","ELEC.PRICE.SD-COM.M",10.60,10.54,10.44,10.41,10.13,9.99,9.71,10.08,10.44,10.32,10.35,11.14,10.86
+"South Dakota : industrial","cents per kilowatthour","ELEC.PRICE.SD-IND.M",8.23,8.36,8.18,8.07,7.87,7.86,8.04,8.25,8.15,8.18,8.32,8.65,8.60
+"South Dakota : transportation","cents per kilowatthour","ELEC.PRICE.SD-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"South Dakota : other","cents per kilowatthour","ELEC.PRICE.SD-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"South Atlantic","cents per kilowatthour","ELEC.PRICE.SAT-ALL.M",,,,,,,,,,,,,
+"South Atlantic : all sectors","cents per kilowatthour","ELEC.PRICE.SAT-ALL.M",12.00,11.99,12.15,11.91,11.74,11.78,12.07,12.21,11.97,11.91,11.71,12.25,12.25
+"South Atlantic : residential","cents per kilowatthour","ELEC.PRICE.SAT-RES.M",14.23,14.28,14.86,15.00,14.54,14.14,13.95,14.76,15.03,15.00,14.46,14.64,14.43
+"South Atlantic : commercial","cents per kilowatthour","ELEC.PRICE.SAT-COM.M",10.70,10.64,10.72,10.86,10.74,10.80,11.28,11.23,10.98,10.98,10.65,10.95,10.92
+"South Atlantic : industrial","cents per kilowatthour","ELEC.PRICE.SAT-IND.M",8.08,8.04,7.81,7.45,7.44,7.47,7.98,7.57,7.37,7.41,7.44,8.16,8.30
+"South Atlantic : transportation","cents per kilowatthour","ELEC.PRICE.SAT-TRA.M",10.22,10.53,9.94,10.25,10.21,10.25,10.05,10.13,10.09,10.24,10.04,9.83,10.15
+"South Atlantic : other","cents per kilowatthour","ELEC.PRICE.SAT-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Delaware","cents per kilowatthour","ELEC.PRICE.DE-ALL.M",,,,,,,,,,,,,
+"Delaware : all sectors","cents per kilowatthour","ELEC.PRICE.DE-ALL.M",12.52,13.07,12.92,13.19,13.41,13.43,13.18,13.25,13.58,14.56,13.13,13.02,13.30
+"Delaware : residential","cents per kilowatthour","ELEC.PRICE.DE-RES.M",15.09,15.66,15.81,17.43,17.22,16.30,15.53,15.73,16.60,18.28,17.27,16.29,15.49
+"Delaware : commercial","cents per kilowatthour","ELEC.PRICE.DE-COM.M",11.33,11.87,11.55,11.88,12.26,12.39,11.88,12.13,11.92,13.12,11.53,11.85,12.15
+"Delaware : industrial","cents per kilowatthour","ELEC.PRICE.DE-IND.M",7.98,8.09,7.84,7.52,8.00,7.52,8.54,7.86,8.35,8.54,7.69,7.58,8.65
+"Delaware : transportation","cents per kilowatthour","ELEC.PRICE.DE-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Delaware : other","cents per kilowatthour","ELEC.PRICE.DE-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"District Of Columbia","cents per kilowatthour","ELEC.PRICE.DC-ALL.M",,,,,,,,,,,,,
+"District Of Columbia : all sectors","cents per kilowatthour","ELEC.PRICE.DC-ALL.M",16.68,16.78,16.29,17.54,16.17,17.32,16.75,17.11,16.80,16.87,16.75,16.49,16.77
+"District Of Columbia : residential","cents per kilowatthour","ELEC.PRICE.DC-RES.M",16.61,16.48,16.29,18.03,16.99,17.82,16.83,17.10,17.65,17.85,17.76,17.11,17.01
+"District Of Columbia : commercial","cents per kilowatthour","ELEC.PRICE.DC-COM.M",17.17,17.24,16.81,17.84,16.43,17.60,17.19,17.58,16.99,17.01,16.93,16.81,17.10
+"District Of Columbia : industrial","cents per kilowatthour","ELEC.PRICE.DC-IND.M",10.94,10.95,10.50,11.54,10.33,10.93,11.01,10.87,10.88,10.92,11.12,11.28,11.47
+"District Of Columbia : transportation","cents per kilowatthour","ELEC.PRICE.DC-TRA.M",9.19,10.29,9.21,10.51,9.77,10.57,9.86,10.10,9.89,10.34,9.67,8.68,9.31
+"District Of Columbia : other","cents per kilowatthour","ELEC.PRICE.DC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Florida","cents per kilowatthour","ELEC.PRICE.FL-ALL.M",,,,,,,,,,,,,
+"Florida : all sectors","cents per kilowatthour","ELEC.PRICE.FL-ALL.M",13.36,13.33,13.76,13.61,13.47,13.41,13.21,13.57,12.87,12.86,12.01,12.30,12.24
+"Florida : residential","cents per kilowatthour","ELEC.PRICE.FL-RES.M",14.94,14.89,15.48,15.45,15.37,15.20,14.79,15.28,14.69,14.65,13.63,13.89,13.75
+"Florida : commercial","cents per kilowatthour","ELEC.PRICE.FL-COM.M",11.56,11.53,11.89,11.94,11.96,12.03,11.83,12.17,11.50,11.43,10.47,10.56,10.50
+"Florida : industrial","cents per kilowatthour","ELEC.PRICE.FL-IND.M",9.26,9.19,9.28,9.16,9.08,9.08,9.16,9.32,8.72,8.85,8.32,8.42,8.42
+"Florida : transportation","cents per kilowatthour","ELEC.PRICE.FL-TRA.M",11.16,10.82,11.69,11.45,11.38,11.31,11.82,11.74,12.09,11.35,9.94,10.46,10.08
+"Florida : other","cents per kilowatthour","ELEC.PRICE.FL-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Georgia","cents per kilowatthour","ELEC.PRICE.GA-ALL.M",,,,,,,,,,,,,
+"Georgia : all sectors","cents per kilowatthour","ELEC.PRICE.GA-ALL.M",11.99,11.99,11.26,10.69,10.64,10.58,11.32,10.64,10.65,10.95,11.46,13.08,13.00
+"Georgia : residential","cents per kilowatthour","ELEC.PRICE.GA-RES.M",14.33,14.12,13.97,13.69,13.16,12.72,12.34,12.95,13.57,14.10,14.92,15.53,15.21
+"Georgia : commercial","cents per kilowatthour","ELEC.PRICE.GA-COM.M",10.99,11.00,10.53,10.66,10.79,10.67,11.96,11.03,11.11,11.24,11.15,12.38,12.36
+"Georgia : industrial","cents per kilowatthour","ELEC.PRICE.GA-IND.M",8.17,8.76,7.08,6.28,6.61,6.23,8.00,5.87,5.86,6.09,6.42,8.74,8.86
+"Georgia : transportation","cents per kilowatthour","ELEC.PRICE.GA-TRA.M",8.39,9.68,9.40,6.13,6.23,6.20,6.29,8.32,5.42,5.88,5.73,7.99,11.50
+"Georgia : other","cents per kilowatthour","ELEC.PRICE.GA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Maryland","cents per kilowatthour","ELEC.PRICE.MD-ALL.M",,,,,,,,,,,,,
+"Maryland : all sectors","cents per kilowatthour","ELEC.PRICE.MD-ALL.M",13.94,14.14,14.26,14.70,14.54,14.96,15.22,15.10,14.99,14.65,14.47,14.80,14.99
+"Maryland : residential","cents per kilowatthour","ELEC.PRICE.MD-RES.M",16.02,16.39,16.95,18.38,17.38,17.46,17.48,17.60,18.09,17.85,17.63,17.41,17.26
+"Maryland : commercial","cents per kilowatthour","ELEC.PRICE.MD-COM.M",12.20,12.45,12.41,12.50,12.42,12.84,13.07,12.91,12.65,12.57,12.46,12.84,12.95
+"Maryland : industrial","cents per kilowatthour","ELEC.PRICE.MD-IND.M",9.84,10.02,9.82,10.29,10.26,10.17,10.73,10.36,10.01,10.08,10.21,10.15,11.06
+"Maryland : transportation","cents per kilowatthour","ELEC.PRICE.MD-TRA.M",11.10,11.17,11.44,11.55,11.71,11.70,11.19,11.48,11.58,11.58,11.62,11.43,11.37
+"Maryland : other","cents per kilowatthour","ELEC.PRICE.MD-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"North Carolina","cents per kilowatthour","ELEC.PRICE.NC-ALL.M",,,,,,,,,,,,,
+"North Carolina : all sectors","cents per kilowatthour","ELEC.PRICE.NC-ALL.M",10.60,10.64,11.28,11.25,10.64,11.32,11.26,12.62,12.12,11.68,11.33,11.44,11.72
+"North Carolina : residential","cents per kilowatthour","ELEC.PRICE.NC-RES.M",12.39,12.70,13.72,14.40,13.39,12.97,13.07,15.10,15.60,14.98,14.18,13.72,13.92
+"North Carolina : commercial","cents per kilowatthour","ELEC.PRICE.NC-COM.M",9.71,9.54,10.15,10.39,9.53,10.43,10.27,11.36,10.78,10.68,10.27,10.35,10.46
+"North Carolina : industrial","cents per kilowatthour","ELEC.PRICE.NC-IND.M",7.52,7.33,7.85,7.37,7.02,8.00,7.51,8.43,7.87,7.64,7.54,7.77,7.90
+"North Carolina : transportation","cents per kilowatthour","ELEC.PRICE.NC-TRA.M",9.28,9.43,10.12,10.14,9.27,9.33,8.97,10.41,10.21,10.27,10.21,10.66,9.74
+"North Carolina : other","cents per kilowatthour","ELEC.PRICE.NC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"South Carolina","cents per kilowatthour","ELEC.PRICE.SC-ALL.M",,,,,,,,,,,,,
+"South Carolina : all sectors","cents per kilowatthour","ELEC.PRICE.SC-ALL.M",10.82,10.80,10.83,10.14,10.35,10.20,11.07,10.83,10.62,10.52,10.33,11.20,11.33
+"South Carolina : residential","cents per kilowatthour","ELEC.PRICE.SC-RES.M",13.21,13.41,14.04,14.00,13.76,13.26,13.54,14.21,14.88,14.90,14.07,14.18,13.87
+"South Carolina : commercial","cents per kilowatthour","ELEC.PRICE.SC-COM.M",10.54,10.43,10.52,10.06,10.66,9.68,10.79,10.65,10.57,10.31,10.04,10.75,10.89
+"South Carolina : industrial","cents per kilowatthour","ELEC.PRICE.SC-IND.M",7.10,6.99,6.94,6.52,6.34,6.63,7.16,6.66,6.49,6.50,6.47,7.09,7.53
+"South Carolina : transportation","cents per kilowatthour","ELEC.PRICE.SC-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"South Carolina : other","cents per kilowatthour","ELEC.PRICE.SC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Virginia","cents per kilowatthour","ELEC.PRICE.VA-ALL.M",,,,,,,,,,,,,
+"Virginia : all sectors","cents per kilowatthour","ELEC.PRICE.VA-ALL.M",10.61,10.47,10.43,10.23,10.42,10.40,11.12,10.77,10.82,10.81,11.10,11.50,11.10
+"Virginia : residential","cents per kilowatthour","ELEC.PRICE.VA-RES.M",13.88,13.85,14.69,14.16,13.93,13.54,13.50,13.97,14.72,14.99,15.02,15.31,14.38
+"Virginia : commercial","cents per kilowatthour","ELEC.PRICE.VA-COM.M",8.84,8.65,8.29,8.83,8.77,8.65,9.62,9.04,9.07,9.30,9.55,9.54,9.18
+"Virginia : industrial","cents per kilowatthour","ELEC.PRICE.VA-IND.M",9.39,8.62,9.12,8.73,8.88,8.49,8.59,8.60,8.53,8.58,8.76,8.84,8.72
+"Virginia : transportation","cents per kilowatthour","ELEC.PRICE.VA-TRA.M",10.91,10.36,9.02,9.98,9.97,9.97,10.03,8.78,10.05,9.84,10.49,9.62,9.50
+"Virginia : other","cents per kilowatthour","ELEC.PRICE.VA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"West Virginia","cents per kilowatthour","ELEC.PRICE.WV-ALL.M",,,,,,,,,,,,,
+"West Virginia : all sectors","cents per kilowatthour","ELEC.PRICE.WV-ALL.M",10.36,10.14,10.10,10.39,10.68,10.19,10.52,10.85,11.04,10.86,11.13,11.15,11.18
+"West Virginia : residential","cents per kilowatthour","ELEC.PRICE.WV-RES.M",14.08,14.20,14.35,15.05,14.42,13.35,13.64,13.98,15.31,15.56,15.98,15.48,15.14
+"West Virginia : commercial","cents per kilowatthour","ELEC.PRICE.WV-COM.M",10.82,10.45,10.68,11.48,11.65,10.93,10.74,11.77,11.78,12.14,12.07,11.82,11.39
+"West Virginia : industrial","cents per kilowatthour","ELEC.PRICE.WV-IND.M",7.27,7.08,7.29,7.48,7.63,7.05,7.25,7.65,7.65,7.66,7.98,7.84,7.73
+"West Virginia : transportation","cents per kilowatthour","ELEC.PRICE.WV-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"West Virginia : other","cents per kilowatthour","ELEC.PRICE.WV-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"East South Central","cents per kilowatthour","ELEC.PRICE.ESC-ALL.M",,,,,,,,,,,,,
+"East South Central : all sectors","cents per kilowatthour","ELEC.PRICE.ESC-ALL.M",11.01,10.90,10.81,10.70,10.70,10.61,11.04,10.89,11.14,10.96,10.67,11.22,11.20
+"East South Central : residential","cents per kilowatthour","ELEC.PRICE.ESC-RES.M",13.03,12.79,12.97,13.48,13.53,12.86,12.83,12.99,13.96,13.89,13.44,13.48,13.18
+"East South Central : commercial","cents per kilowatthour","ELEC.PRICE.ESC-COM.M",12.11,11.94,11.97,11.97,12.01,12.14,12.17,12.44,12.75,12.49,11.97,12.45,12.26
+"East South Central : industrial","cents per kilowatthour","ELEC.PRICE.ESC-IND.M",6.89,6.90,6.62,6.70,6.70,6.51,6.94,6.51,6.83,6.78,6.49,6.88,6.90
+"East South Central : transportation","cents per kilowatthour","ELEC.PRICE.ESC-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"East South Central : other","cents per kilowatthour","ELEC.PRICE.ESC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Alabama","cents per kilowatthour","ELEC.PRICE.AL-ALL.M",,,,,,,,,,,,,
+"Alabama : all sectors","cents per kilowatthour","ELEC.PRICE.AL-ALL.M",11.95,11.74,11.67,11.46,11.59,11.19,11.86,11.60,11.79,11.82,11.34,12.18,12.13
+"Alabama : residential","cents per kilowatthour","ELEC.PRICE.AL-RES.M",14.48,14.19,14.89,15.08,14.98,14.16,14.40,14.98,15.87,15.85,14.73,15.03,14.94
+"Alabama : commercial","cents per kilowatthour","ELEC.PRICE.AL-COM.M",13.19,12.98,12.95,13.14,13.53,13.27,13.66,13.58,13.89,13.73,12.98,13.64,13.45
+"Alabama : industrial","cents per kilowatthour","ELEC.PRICE.AL-IND.M",7.61,7.42,6.99,7.23,7.47,6.80,7.14,6.74,7.18,7.45,7.06,7.62,7.36
+"Alabama : transportation","cents per kilowatthour","ELEC.PRICE.AL-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Alabama : other","cents per kilowatthour","ELEC.PRICE.AL-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Kentucky","cents per kilowatthour","ELEC.PRICE.KY-ALL.M",,,,,,,,,,,,,
+"Kentucky : all sectors","cents per kilowatthour","ELEC.PRICE.KY-ALL.M",10.07,9.97,9.94,9.81,9.78,9.88,10.47,10.17,10.22,9.96,9.93,10.35,10.29
+"Kentucky : residential","cents per kilowatthour","ELEC.PRICE.KY-RES.M",12.51,12.33,12.61,13.17,13.29,12.34,12.27,12.48,13.01,13.00,12.94,12.87,12.47
+"Kentucky : commercial","cents per kilowatthour","ELEC.PRICE.KY-COM.M",11.11,11.05,11.54,11.28,10.70,11.53,11.59,12.10,11.94,11.71,11.65,11.85,11.34
+"Kentucky : industrial","cents per kilowatthour","ELEC.PRICE.KY-IND.M",6.54,6.60,6.37,6.43,6.37,6.36,7.14,6.31,6.64,6.47,6.22,6.54,6.69
+"Kentucky : transportation","cents per kilowatthour","ELEC.PRICE.KY-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Kentucky : other","cents per kilowatthour","ELEC.PRICE.KY-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Mississippi","cents per kilowatthour","ELEC.PRICE.MS-ALL.M",,,,,,,,,,,,,
+"Mississippi : all sectors","cents per kilowatthour","ELEC.PRICE.MS-ALL.M",10.85,10.97,10.96,10.88,10.60,10.75,10.61,10.96,11.02,11.11,10.82,11.11,10.99
+"Mississippi : residential","cents per kilowatthour","ELEC.PRICE.MS-RES.M",12.82,12.70,12.85,13.47,13.50,13.06,12.72,13.19,14.24,14.64,13.86,13.42,13.03
+"Mississippi : commercial","cents per kilowatthour","ELEC.PRICE.MS-COM.M",12.06,11.82,11.92,12.09,12.12,12.43,11.13,12.60,12.50,12.55,11.95,12.08,11.88
+"Mississippi : industrial","cents per kilowatthour","ELEC.PRICE.MS-IND.M",6.78,7.07,6.96,6.92,6.66,6.89,6.94,6.71,6.91,6.84,6.65,6.92,6.95
+"Mississippi : transportation","cents per kilowatthour","ELEC.PRICE.MS-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Mississippi : other","cents per kilowatthour","ELEC.PRICE.MS-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Tennessee","cents per kilowatthour","ELEC.PRICE.TN-ALL.M",,,,,,,,,,,,,
+"Tennessee : all sectors","cents per kilowatthour","ELEC.PRICE.TN-ALL.M",10.93,10.77,10.58,10.61,10.67,10.59,10.95,10.80,11.33,10.88,10.52,11.03,11.13
+"Tennessee : residential","cents per kilowatthour","ELEC.PRICE.TN-RES.M",12.22,11.93,11.78,12.49,12.60,12.11,12.05,11.98,13.17,12.76,12.46,12.57,12.35
+"Tennessee : commercial","cents per kilowatthour","ELEC.PRICE.TN-COM.M",11.98,11.80,11.61,11.57,11.77,11.68,11.99,11.87,12.60,12.09,11.46,12.15,12.12
+"Tennessee : industrial","cents per kilowatthour","ELEC.PRICE.TN-IND.M",6.39,6.41,6.18,6.15,6.06,6.00,6.42,6.28,6.53,6.17,5.85,6.23,6.46
+"Tennessee : transportation","cents per kilowatthour","ELEC.PRICE.TN-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Tennessee : other","cents per kilowatthour","ELEC.PRICE.TN-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"West South Central","cents per kilowatthour","ELEC.PRICE.WSC-ALL.M",,,,,,,,,,,,,
+"West South Central : all sectors","cents per kilowatthour","ELEC.PRICE.WSC-ALL.M",10.04,10.92,10.50,9.74,9.21,9.16,9.78,9.38,9.31,9.36,9.42,9.95,10.17
+"West South Central : residential","cents per kilowatthour","ELEC.PRICE.WSC-RES.M",13.34,13.56,13.96,14.18,13.86,13.48,13.17,13.36,14.08,14.20,13.85,13.70,13.79
+"West South Central : commercial","cents per kilowatthour","ELEC.PRICE.WSC-COM.M",9.16,9.84,9.44,9.15,8.85,8.82,9.20,8.94,9.04,9.02,8.86,9.29,9.37
+"West South Central : industrial","cents per kilowatthour","ELEC.PRICE.WSC-IND.M",6.45,8.26,7.17,6.38,6.05,5.80,6.38,5.89,5.81,5.86,5.95,6.07,6.23
+"West South Central : transportation","cents per kilowatthour","ELEC.PRICE.WSC-TRA.M",7.48,7.01,7.68,7.34,7.77,9.11,8.38,9.41,8.44,8.25,8.21,7.81,6.65
+"West South Central : other","cents per kilowatthour","ELEC.PRICE.WSC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Arkansas","cents per kilowatthour","ELEC.PRICE.AR-ALL.M",,,,,,,,,,,,,
+"Arkansas : all sectors","cents per kilowatthour","ELEC.PRICE.AR-ALL.M",10.30,10.29,10.16,9.85,9.33,9.17,9.63,9.53,9.46,9.07,8.99,9.59,9.93
+"Arkansas : residential","cents per kilowatthour","ELEC.PRICE.AR-RES.M",12.53,12.47,12.69,12.73,12.31,11.54,11.24,11.89,12.88,12.60,12.27,12.36,12.40
+"Arkansas : commercial","cents per kilowatthour","ELEC.PRICE.AR-COM.M",10.50,10.29,10.35,10.59,10.24,10.10,10.26,10.52,10.68,10.20,10.04,10.01,10.11
+"Arkansas : industrial","cents per kilowatthour","ELEC.PRICE.AR-IND.M",7.47,7.55,7.19,6.93,6.57,6.33,7.08,6.33,6.21,5.86,5.91,6.51,6.92
+"Arkansas : transportation","cents per kilowatthour","ELEC.PRICE.AR-TRA.M",16.13,15.52,15.52,13.20,15.97,15.18,12.70,13.12,13.20,13.36,13.49,13.58,13.62
+"Arkansas : other","cents per kilowatthour","ELEC.PRICE.AR-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Louisiana","cents per kilowatthour","ELEC.PRICE.LA-ALL.M",,,,,,,,,,,,,
+"Louisiana : all sectors","cents per kilowatthour","ELEC.PRICE.LA-ALL.M",8.80,8.72,8.81,8.93,8.60,8.69,8.41,8.71,9.34,8.81,8.20,8.58,8.88
+"Louisiana : residential","cents per kilowatthour","ELEC.PRICE.LA-RES.M",11.26,11.06,11.42,11.95,11.45,11.21,10.82,11.25,12.38,12.08,11.49,11.42,11.50
+"Louisiana : commercial","cents per kilowatthour","ELEC.PRICE.LA-COM.M",9.77,9.55,9.79,10.50,10.60,10.75,9.48,10.72,11.43,10.79,10.03,9.76,9.96
+"Louisiana : industrial","cents per kilowatthour","ELEC.PRICE.LA-IND.M",5.44,5.33,5.35,5.80,5.73,5.84,5.75,5.74,6.38,6.10,5.26,5.37,5.62
+"Louisiana : transportation","cents per kilowatthour","ELEC.PRICE.LA-TRA.M",10.91,10.85,10.52,10.61,11.23,11.22,10.48,12.38,12.68,12.25,12.32,11.37,11.25
+"Louisiana : other","cents per kilowatthour","ELEC.PRICE.LA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Oklahoma","cents per kilowatthour","ELEC.PRICE.OK-ALL.M",,,,,,,,,,,,,
+"Oklahoma : all sectors","cents per kilowatthour","ELEC.PRICE.OK-ALL.M",10.05,10.63,10.15,9.35,8.79,8.38,9.23,8.26,7.94,8.28,8.21,9.65,9.93
+"Oklahoma : residential","cents per kilowatthour","ELEC.PRICE.OK-RES.M",12.27,13.10,13.03,13.04,11.88,10.79,11.16,11.30,11.83,12.46,11.70,12.37,12.95
+"Oklahoma : commercial","cents per kilowatthour","ELEC.PRICE.OK-COM.M",9.97,10.61,10.14,9.45,8.95,8.47,9.53,8.19,7.69,8.14,8.04,9.59,9.40
+"Oklahoma : industrial","cents per kilowatthour","ELEC.PRICE.OK-IND.M",6.82,6.97,6.55,6.05,6.04,5.79,6.51,5.29,5.07,5.31,5.26,6.19,6.25
+"Oklahoma : transportation","cents per kilowatthour","ELEC.PRICE.OK-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Oklahoma : other","cents per kilowatthour","ELEC.PRICE.OK-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Texas","cents per kilowatthour","ELEC.PRICE.TX-ALL.M",,,,,,,,,,,,,
+"Texas : all sectors","cents per kilowatthour","ELEC.PRICE.TX-ALL.M",10.25,11.42,10.91,9.93,9.38,9.37,10.17,9.68,9.51,9.67,9.91,10.32,10.50
+"Texas : residential","cents per kilowatthour","ELEC.PRICE.TX-RES.M",13.95,14.17,14.68,14.89,14.79,14.64,14.25,14.31,14.92,15.02,14.74,14.47,14.51
+"Texas : commercial","cents per kilowatthour","ELEC.PRICE.TX-COM.M",8.85,9.74,9.23,8.82,8.49,8.51,9.02,8.67,8.78,8.80,8.73,9.11,9.22
+"Texas : industrial","cents per kilowatthour","ELEC.PRICE.TX-IND.M",6.53,9.19,7.69,6.50,6.07,5.72,6.44,5.97,5.72,5.88,6.28,6.20,6.31
+"Texas : transportation","cents per kilowatthour","ELEC.PRICE.TX-TRA.M",7.22,6.75,7.49,7.17,7.60,8.97,6.98,4.57,4.18,4.27,4.22,4.00,3.80
+"Texas : other","cents per kilowatthour","ELEC.PRICE.TX-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Mountain","cents per kilowatthour","ELEC.PRICE.MTN-ALL.M",,,,,,,,,,,,,
+"Mountain : all sectors","cents per kilowatthour","ELEC.PRICE.MTN-ALL.M",11.88,11.80,11.67,10.84,10.79,10.56,10.77,10.71,10.62,10.78,11.07,11.89,11.96
+"Mountain : residential","cents per kilowatthour","ELEC.PRICE.MTN-RES.M",14.03,13.92,14.34,13.86,13.85,13.44,13.33,13.63,13.86,14.19,14.44,14.54,14.26
+"Mountain : commercial","cents per kilowatthour","ELEC.PRICE.MTN-COM.M",11.64,11.55,11.55,10.83,10.76,10.44,10.48,10.59,10.66,10.84,11.11,11.63,11.75
+"Mountain : industrial","cents per kilowatthour","ELEC.PRICE.MTN-IND.M",8.53,8.68,8.33,7.52,7.54,7.15,7.76,7.47,7.22,7.27,7.41,8.35,8.37
+"Mountain : transportation","cents per kilowatthour","ELEC.PRICE.MTN-TRA.M",13.26,13.11,13.87,12.92,12.57,12.12,10.72,10.66,10.59,10.73,10.46,10.62,10.68
+"Mountain : other","cents per kilowatthour","ELEC.PRICE.MTN-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Arizona","cents per kilowatthour","ELEC.PRICE.AZ-ALL.M",,,,,,,,,,,,,
+"Arizona : all sectors","cents per kilowatthour","ELEC.PRICE.AZ-ALL.M",13.01,12.72,12.62,12.25,11.99,12.00,11.92,12.01,12.03,12.39,13.12,13.40,13.57
+"Arizona : residential","cents per kilowatthour","ELEC.PRICE.AZ-RES.M",14.13,13.83,14.38,14.53,14.55,14.42,14.11,14.46,14.95,15.24,15.50,15.14,14.92
+"Arizona : commercial","cents per kilowatthour","ELEC.PRICE.AZ-COM.M",12.76,12.29,12.13,11.78,11.61,11.59,11.46,11.50,11.77,12.16,12.84,12.94,13.08
+"Arizona : industrial","cents per kilowatthour","ELEC.PRICE.AZ-IND.M",8.75,9.45,8.20,7.79,8.05,7.86,7.68,8.20,7.17,7.14,7.77,8.11,9.03
+"Arizona : transportation","cents per kilowatthour","ELEC.PRICE.AZ-TRA.M",11.25,10.38,10.41,10.51,9.68,9.63,9.95,9.75,9.67,10.48,11.43,12.70,12.36
+"Arizona : other","cents per kilowatthour","ELEC.PRICE.AZ-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Colorado","cents per kilowatthour","ELEC.PRICE.CO-ALL.M",,,,,,,,,,,,,
+"Colorado : all sectors","cents per kilowatthour","ELEC.PRICE.CO-ALL.M",12.16,12.34,12.47,11.56,11.71,11.41,11.46,11.68,11.51,11.91,11.86,13.06,13.07
+"Colorado : residential","cents per kilowatthour","ELEC.PRICE.CO-RES.M",14.14,14.45,15.03,14.50,14.58,14.18,14.26,14.47,14.64,14.77,14.74,15.21,15.49
+"Colorado : commercial","cents per kilowatthour","ELEC.PRICE.CO-COM.M",12.24,12.43,12.57,11.48,11.51,10.95,10.84,11.02,11.08,11.65,11.71,13.17,13.00
+"Colorado : industrial","cents per kilowatthour","ELEC.PRICE.CO-IND.M",8.88,8.75,8.95,8.35,8.44,8.17,8.28,8.75,8.38,8.97,8.83,9.62,9.32
+"Colorado : transportation","cents per kilowatthour","ELEC.PRICE.CO-TRA.M",14.15,13.96,15.43,13.64,13.16,12.39,9.99,9.82,9.70,9.90,9.22,9.39,9.60
+"Colorado : other","cents per kilowatthour","ELEC.PRICE.CO-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Idaho","cents per kilowatthour","ELEC.PRICE.ID-ALL.M",,,,,,,,,,,,,
+"Idaho : all sectors","cents per kilowatthour","ELEC.PRICE.ID-ALL.M",9.57,9.52,9.22,9.33,9.39,9.46,9.20,9.48,9.18,9.25,9.03,10.39,9.95
+"Idaho : residential","cents per kilowatthour","ELEC.PRICE.ID-RES.M",11.76,11.56,11.53,12.07,11.48,11.53,10.79,11.26,11.07,11.45,11.55,12.28,12.23
+"Idaho : commercial","cents per kilowatthour","ELEC.PRICE.ID-COM.M",9.27,9.13,8.99,9.17,8.96,8.88,8.64,9.14,9.16,9.27,9.19,9.66,9.71
+"Idaho : industrial","cents per kilowatthour","ELEC.PRICE.ID-IND.M",8.19,8.13,7.59,6.75,6.53,6.21,6.78,7.03,6.55,6.98,7.10,9.59,8.44
+"Idaho : transportation","cents per kilowatthour","ELEC.PRICE.ID-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Idaho : other","cents per kilowatthour","ELEC.PRICE.ID-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Montana","cents per kilowatthour","ELEC.PRICE.MT-ALL.M",,,,,,,,,,,,,
+"Montana : all sectors","cents per kilowatthour","ELEC.PRICE.MT-ALL.M",11.22,11.32,10.72,11.19,10.88,10.84,12.03,10.47,10.58,10.35,10.74,10.84,11.31
+"Montana : residential","cents per kilowatthour","ELEC.PRICE.MT-RES.M",13.07,12.93,13.15,12.93,12.58,12.58,11.98,11.96,12.22,12.52,13.26,13.58,13.43
+"Montana : commercial","cents per kilowatthour","ELEC.PRICE.MT-COM.M",12.29,12.17,12.22,12.32,12.19,12.05,11.62,11.46,11.65,11.76,12.20,12.41,12.25
+"Montana : industrial","cents per kilowatthour","ELEC.PRICE.MT-IND.M",8.29,8.74,6.93,8.34,7.60,7.04,12.57,7.05,7.08,6.65,6.82,6.98,8.13
+"Montana : transportation","cents per kilowatthour","ELEC.PRICE.MT-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Montana : other","cents per kilowatthour","ELEC.PRICE.MT-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Nevada","cents per kilowatthour","ELEC.PRICE.NV-ALL.M",,,,,,,,,,,,,
+"Nevada : all sectors","cents per kilowatthour","ELEC.PRICE.NV-ALL.M",14.21,14.31,14.19,10.90,12.06,11.44,11.92,11.68,11.49,11.24,11.38,12.77,11.59
+"Nevada : residential","cents per kilowatthour","ELEC.PRICE.NV-RES.M",16.30,16.48,16.94,14.63,17.11,15.55,16.38,16.69,16.82,16.59,16.18,15.50,13.57
+"Nevada : commercial","cents per kilowatthour","ELEC.PRICE.NV-COM.M",12.59,12.70,13.04,10.55,11.31,10.98,11.15,11.15,10.90,10.37,10.25,10.92,9.85
+"Nevada : industrial","cents per kilowatthour","ELEC.PRICE.NV-IND.M",12.21,12.85,12.28,8.04,8.75,8.14,8.48,7.96,7.92,7.80,7.87,10.55,9.93
+"Nevada : transportation","cents per kilowatthour","ELEC.PRICE.NV-TRA.M",12.97,12.87,13.01,12.48,12.21,12.10,11.88,12.12,11.97,11.58,11.85,11.76,10.75
+"Nevada : other","cents per kilowatthour","ELEC.PRICE.NV-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"New Mexico","cents per kilowatthour","ELEC.PRICE.NM-ALL.M",,,,,,,,,,,,,
+"New Mexico : all sectors","cents per kilowatthour","ELEC.PRICE.NM-ALL.M",10.44,9.93,10.14,9.39,9.51,8.86,9.21,9.27,9.09,8.96,9.05,9.83,10.43
+"New Mexico : residential","cents per kilowatthour","ELEC.PRICE.NM-RES.M",14.39,14.41,14.88,14.12,14.20,13.37,13.76,14.14,14.49,14.29,13.84,14.44,15.39
+"New Mexico : commercial","cents per kilowatthour","ELEC.PRICE.NM-COM.M",11.78,11.03,11.37,10.76,10.91,10.11,10.54,10.50,10.37,10.40,10.23,11.29,12.17
+"New Mexico : industrial","cents per kilowatthour","ELEC.PRICE.NM-IND.M",5.73,5.22,6.11,5.97,6.07,5.28,5.47,5.65,5.86,5.78,5.99,5.70,5.69
+"New Mexico : transportation","cents per kilowatthour","ELEC.PRICE.NM-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"New Mexico : other","cents per kilowatthour","ELEC.PRICE.NM-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Utah","cents per kilowatthour","ELEC.PRICE.UT-ALL.M",,,,,,,,,,,,,
+"Utah : all sectors","cents per kilowatthour","ELEC.PRICE.UT-ALL.M",9.51,9.67,9.53,9.08,8.73,8.53,9.09,8.65,8.64,8.63,8.56,9.13,9.99
+"Utah : residential","cents per kilowatthour","ELEC.PRICE.UT-RES.M",11.71,11.67,11.85,11.23,11.05,10.87,10.85,10.99,11.00,11.07,11.01,11.50,11.91
+"Utah : commercial","cents per kilowatthour","ELEC.PRICE.UT-COM.M",8.39,9.08,9.22,8.73,8.39,7.91,8.04,8.11,8.24,8.29,8.43,8.47,9.35
+"Utah : industrial","cents per kilowatthour","ELEC.PRICE.UT-IND.M",7.60,7.32,7.10,7.38,6.60,6.40,8.37,6.57,6.52,6.60,6.21,6.62,7.48
+"Utah : transportation","cents per kilowatthour","ELEC.PRICE.UT-TRA.M",12.31,12.32,12.33,12.32,12.16,12.08,12.07,12.06,12.13,12.05,12.06,12.02,12.03
+"Utah : other","cents per kilowatthour","ELEC.PRICE.UT-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Wyoming","cents per kilowatthour","ELEC.PRICE.WY-ALL.M",,,,,,,,,,,,,
+"Wyoming : all sectors","cents per kilowatthour","ELEC.PRICE.WY-ALL.M",8.68,8.76,8.56,8.64,8.45,8.29,8.39,8.82,8.77,8.68,8.81,8.91,9.41
+"Wyoming : residential","cents per kilowatthour","ELEC.PRICE.WY-RES.M",12.49,12.45,12.64,12.49,11.59,11.32,10.86,11.47,11.68,12.20,12.81,12.90,13.44
+"Wyoming : commercial","cents per kilowatthour","ELEC.PRICE.WY-COM.M",9.40,9.27,8.69,8.88,8.85,8.51,9.52,9.67,9.53,8.98,9.12,9.26,9.52
+"Wyoming : industrial","cents per kilowatthour","ELEC.PRICE.WY-IND.M",7.04,7.36,7.47,7.47,7.22,7.05,6.97,7.58,7.53,7.39,7.61,7.64,8.11
+"Wyoming : transportation","cents per kilowatthour","ELEC.PRICE.WY-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Wyoming : other","cents per kilowatthour","ELEC.PRICE.WY-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Pacific Contiguous","cents per kilowatthour","ELEC.PRICE.PCC-ALL.M",,,,,,,,,,,,,
+"Pacific Contiguous : all sectors","cents per kilowatthour","ELEC.PRICE.PCC-ALL.M",20.81,21.77,21.33,20.23,18.63,18.12,18.75,19.30,19.54,19.75,20.35,21.79,23.95
+"Pacific Contiguous : residential","cents per kilowatthour","ELEC.PRICE.PCC-RES.M",23.37,24.22,24.29,23.84,21.57,20.70,21.11,22.30,22.94,24.50,25.07,25.88,26.28
+"Pacific Contiguous : commercial","cents per kilowatthour","ELEC.PRICE.PCC-COM.M",21.53,22.50,22.19,20.40,18.82,18.24,19.11,19.67,19.80,19.31,19.96,21.83,24.82
+"Pacific Contiguous : industrial","cents per kilowatthour","ELEC.PRICE.PCC-IND.M",14.71,15.58,14.86,14.54,13.08,12.61,12.49,12.53,12.69,13.23,14.46,15.64,17.88
+"Pacific Contiguous : transportation","cents per kilowatthour","ELEC.PRICE.PCC-TRA.M",12.82,13.51,14.61,14.42,13.17,12.54,16.09,15.58,14.73,15.28,15.46,16.09,16.44
+"Pacific Contiguous : other","cents per kilowatthour","ELEC.PRICE.PCC-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"California","cents per kilowatthour","ELEC.PRICE.CA-ALL.M",,,,,,,,,,,,,
+"California : all sectors","cents per kilowatthour","ELEC.PRICE.CA-ALL.M",26.53,27.68,26.92,25.92,24.35,24.09,24.61,25.37,25.81,25.69,26.37,27.66,30.39
+"California : residential","cents per kilowatthour","ELEC.PRICE.CA-RES.M",29.46,29.97,30.01,31.78,29.54,29.12,29.49,31.23,32.47,34.26,34.31,32.99,32.56
+"California : commercial","cents per kilowatthour","ELEC.PRICE.CA-COM.M",26.54,28.02,27.27,24.75,23.12,22.66,22.93,23.61,23.70,22.86,23.79,26.11,30.21
+"California : industrial","cents per kilowatthour","ELEC.PRICE.CA-IND.M",20.66,21.80,20.41,20.15,18.33,17.99,17.95,18.07,18.96,19.30,21.23,22.54,26.12
+"California : transportation","cents per kilowatthour","ELEC.PRICE.CA-TRA.M",13.20,13.83,15.19,14.92,13.56,13.09,17.06,16.18,15.20,16.23,16.08,16.81,17.19
+"California : other","cents per kilowatthour","ELEC.PRICE.CA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Oregon","cents per kilowatthour","ELEC.PRICE.OR-ALL.M",,,,,,,,,,,,,
+"Oregon : all sectors","cents per kilowatthour","ELEC.PRICE.OR-ALL.M",10.39,10.36,10.33,10.32,10.44,10.28,11.40,11.57,11.38,11.22,11.29,11.28,11.43
+"Oregon : residential","cents per kilowatthour","ELEC.PRICE.OR-RES.M",13.17,13.02,13.19,13.29,12.99,12.61,13.84,14.23,14.32,14.60,15.03,15.12,14.85
+"Oregon : commercial","cents per kilowatthour","ELEC.PRICE.OR-COM.M",9.91,9.91,10.14,9.91,10.10,9.69,11.20,11.59,11.69,11.60,11.49,11.37,11.31
+"Oregon : industrial","cents per kilowatthour","ELEC.PRICE.OR-IND.M",7.56,7.66,7.65,7.48,7.34,7.30,7.61,7.70,7.21,7.17,7.40,7.52,7.64
+"Oregon : transportation","cents per kilowatthour","ELEC.PRICE.OR-TRA.M",11.31,11.40,11.28,11.66,11.51,11.73,12.19,12.66,12.71,12.62,12.61,12.53,12.57
+"Oregon : other","cents per kilowatthour","ELEC.PRICE.OR-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Washington","cents per kilowatthour","ELEC.PRICE.WA-ALL.M",,,,,,,,,,,,,
+"Washington : all sectors","cents per kilowatthour","ELEC.PRICE.WA-ALL.M",9.45,9.54,9.52,9.73,9.68,9.65,10.06,10.15,10.16,10.07,10.07,10.07,10.12
+"Washington : residential","cents per kilowatthour","ELEC.PRICE.WA-RES.M",11.15,11.14,11.38,11.33,11.07,10.98,11.09,11.40,11.72,11.84,12.16,12.34,12.06
+"Washington : commercial","cents per kilowatthour","ELEC.PRICE.WA-COM.M",9.71,9.82,9.87,10.18,10.08,9.94,10.52,10.74,10.63,10.57,10.46,10.46,10.44
+"Washington : industrial","cents per kilowatthour","ELEC.PRICE.WA-IND.M",6.36,6.61,6.40,6.53,6.27,6.10,6.58,6.51,6.21,6.22,6.17,6.17,6.44
+"Washington : transportation","cents per kilowatthour","ELEC.PRICE.WA-TRA.M",9.89,10.19,10.02,10.12,10.02,10.08,10.52,11.39,11.30,8.32,11.01,11.10,11.20
+"Washington : other","cents per kilowatthour","ELEC.PRICE.WA-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Pacific Noncontiguous","cents per kilowatthour","ELEC.PRICE.PCN-ALL.M",,,,,,,,,,,,,
+"Pacific Noncontiguous : all sectors","cents per kilowatthour","ELEC.PRICE.PCN-ALL.M",29.80,30.14,30.88,31.97,32.59,31.45,32.40,31.29,32.40,32.65,32.58,31.99,31.60
+"Pacific Noncontiguous : residential","cents per kilowatthour","ELEC.PRICE.PCN-RES.M",34.13,34.22,34.92,35.18,35.06,33.46,34.01,33.01,35.11,35.94,36.22,35.87,36.05
+"Pacific Noncontiguous : commercial","cents per kilowatthour","ELEC.PRICE.PCN-COM.M",28.76,28.81,29.74,30.65,30.99,29.85,31.16,30.49,30.89,31.30,30.89,30.67,30.05
+"Pacific Noncontiguous : industrial","cents per kilowatthour","ELEC.PRICE.PCN-IND.M",27.07,27.85,28.46,30.39,31.87,31.04,31.96,30.33,31.44,31.08,31.14,29.91,29.30
+"Pacific Noncontiguous : transportation","cents per kilowatthour","ELEC.PRICE.PCN-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Pacific Noncontiguous : other","cents per kilowatthour","ELEC.PRICE.PCN-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Alaska","cents per kilowatthour","ELEC.PRICE.AK-ALL.M",,,,,,,,,,,,,
+"Alaska : all sectors","cents per kilowatthour","ELEC.PRICE.AK-ALL.M",20.92,21.39,21.15,21.20,21.85,22.17,21.82,20.94,22.52,22.19,22.01,22.53,22.05
+"Alaska : residential","cents per kilowatthour","ELEC.PRICE.AK-RES.M",24.96,25.14,24.57,24.04,24.13,24.22,23.78,22.88,24.71,24.89,25.02,25.40,25.64
+"Alaska : commercial","cents per kilowatthour","ELEC.PRICE.AK-COM.M",20.79,20.85,21.17,20.87,20.71,21.16,21.31,21.13,21.30,21.64,21.06,21.77,21.13
+"Alaska : industrial","cents per kilowatthour","ELEC.PRICE.AK-IND.M",16.46,17.60,16.61,17.91,20.37,20.55,19.13,17.01,21.35,19.38,19.75,20.41,19.17
+"Alaska : transportation","cents per kilowatthour","ELEC.PRICE.AK-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Alaska : other","cents per kilowatthour","ELEC.PRICE.AK-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"Hawaii","cents per kilowatthour","ELEC.PRICE.HI-ALL.M",,,,,,,,,,,,,
+"Hawaii : all sectors","cents per kilowatthour","ELEC.PRICE.HI-ALL.M",35.15,35.43,36.65,38.60,39.75,38.47,41.14,40.00,40.11,40.20,39.38,37.90,37.40
+"Hawaii : residential","cents per kilowatthour","ELEC.PRICE.HI-RES.M",39.70,39.77,41.52,42.68,43.53,41.60,44.28,43.93,45.25,45.19,44.14,42.45,42.67
+"Hawaii : commercial","cents per kilowatthour","ELEC.PRICE.HI-COM.M",35.47,35.72,36.89,38.99,40.30,39.00,42.20,40.82,40.80,40.82,39.76,38.56,37.81
+"Hawaii : industrial","cents per kilowatthour","ELEC.PRICE.HI-IND.M",31.37,31.74,32.77,35.13,36.28,35.40,37.68,36.34,35.86,36.11,35.57,33.80,33.11
+"Hawaii : transportation","cents per kilowatthour","ELEC.PRICE.HI-TRA.M",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+"Hawaii : other","cents per kilowatthour","ELEC.PRICE.HI-OTH.M","--","--","--","--","--","--","--","--","--","--","--","--","--"
