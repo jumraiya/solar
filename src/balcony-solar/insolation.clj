@@ -28,7 +28,23 @@
    "Milwaukee-Waukesha-West Allis, WI" "MilwaukeeWI_43.05_-87.90_tmy-2022.csv"
    "Minneapolis-St. Paul-Bloomington, MN-WI" "MinneapolisMN_44.97_-93.26_tmy-2022.csv"
    "Birmingham-Hoover, AL" "BirminghamAL_33.53_-86.82_tmy-2022.csv"
-   "Las Vegas-Henderson-Paradise, NV" "LasVegasNV_36.17_-115.14_tmy-2022.csv"})
+   "Las Vegas-Henderson-Paradise, NV" "LasVegasNV_36.17_-115.14_tmy-2022.csv"
+   "Washington-Arlington-Alexandria, DC-VA-MD-WV" "WashingtonDC_38.89_-77.02_tmy-2023.csv"
+   "Seattle-Tacoma-Bellevue, WA" "SeattleWA_47.61_-122.34_tmy-2023.csv"
+   "San Francisco-Oakland-Hayward, CA" "SanFranciscoCA_37.77_-122.42_tmy-2023.csv"
+   "Riverside-San Bernardino-Ontario, CA" "RiversideCA_33.97_-117.38_tmy-2023.csv"
+   "Phoenix-Mesa-Scottsdale, AZ" "PhoenixAZ_33.45_-112.06_tmy-2023.csv"
+   "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD" "PhiladelphiaPA_39.97_-75.18_tmy-2023.csv"
+   "New York-Newark-Jersey City, NY-NJ-PA" "NewYorkNY_40.73_-74.02_tmy-2023.csv"
+   "Miami-Fort Lauderdale-West Palm Beach, FL" "MiamiFL_25.77_-80.18_tmy-2023.csv"
+   "Los Angeles-Long Beach-Anaheim, CA" "LosAngelesCA_34.05_-118.26_tmy-2023.csv"
+   "Houston-The Woodlands-Sugar Land, TX" "HoustonTX_29.77_-95.38_tmy-2023.csv"
+   "Detroit-Warren-Dearborn, MI" "DetroitMI_42.33_-83.06_tmy-2023.csv"
+   "Dallas-Fort Worth-Arlington, TX" "DallasTX_32.77_-96.78_tmy-2023.csv"
+   "Chicago-Naperville-Elgin, IL-IN-WI" "ChicagoIL_41.89_-87.62_tmy-2023.csv"
+   "Boston-Cambridge-Newton, MA-NH" "BostonMA_42.37_-71.06_tmy-2023.csv"
+   "Atlanta-Sandy Springs-Roswell, GA" "AtlantaGA_33.77_-84.38_tmy-2023.csv"})
+
 
 (def latitudes
   {"Richmond, VA" 37.53
@@ -50,7 +66,22 @@
    "Milwaukee-Waukesha-West Allis, WI" 43.05
    "Minneapolis-St. Paul-Bloomington, MN-WI" 44.97
    "Birmingham-Hoover, AL" 33.53
-   "Las Vegas-Henderson-Paradise, NV" 36.17})
+   "Las Vegas-Henderson-Paradise, NV" 36.17
+   "Washington-Arlington-Alexandria, DC-VA-MD-WV" 38.89
+   "Seattle-Tacoma-Bellevue, WA" 47.61
+   "San Francisco-Oakland-Hayward, CA" 37.77
+   "Riverside-San Bernardino-Ontario, CA" 33.97
+   "Phoenix-Mesa-Scottsdale, AZ" 33.45
+   "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD" 39.97
+   "New York-Newark-Jersey City, NY-NJ-PA" 40.73
+   "Miami-Fort Lauderdale-West Palm Beach, FL" 25.77
+   "Los Angeles-Long Beach-Anaheim, CA" 34.05
+   "Houston-The Woodlands-Sugar Land, TX" 29.77
+   "Detroit-Warren-Dearborn, MI" 42.33
+   "Dallas-Fort Worth-Arlington, TX" 32.77
+   "Chicago-Naperville-Elgin, IL-IN-WI" 41.89
+   "Boston-Cambridge-Newton, MA-NH" 42.37
+   "Atlanta-Sandy Springs-Roswell, GA" 33.77})
 
 (def metro-states
   {"Richmond, VA" "Virginia"
@@ -72,7 +103,22 @@
    "Milwaukee-Waukesha-West Allis, WI" "Wisconsin"
    "Minneapolis-St. Paul-Bloomington, MN-WI" "Minnesota"
    "Birmingham-Hoover, AL" "Alabama"
-   "Las Vegas-Henderson-Paradise, NV" "Nevada"})
+   "Las Vegas-Henderson-Paradise, NV" "Nevada"
+   "Washington-Arlington-Alexandria, DC-VA-MD-WV" "District Of Columbia"
+   "Seattle-Tacoma-Bellevue, WA" "Washington"
+   "San Francisco-Oakland-Hayward, CA" "California"
+   "Riverside-San Bernardino-Ontario, CA" "California"
+   "Phoenix-Mesa-Scottsdale, AZ" "Arizona"
+   "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD" "Pennsylvania"
+   "New York-Newark-Jersey City, NY-NJ-PA" "New York"
+   "Miami-Fort Lauderdale-West Palm Beach, FL" "Florida"
+   "Los Angeles-Long Beach-Anaheim, CA" "California"
+   "Houston-The Woodlands-Sugar Land, TX" "Texas"
+   "Detroit-Warren-Dearborn, MI" "Michigan"
+   "Dallas-Fort Worth-Arlington, TX" "Texas"
+   "Chicago-Naperville-Elgin, IL-IN-WI" "Illinois"
+   "Boston-Cambridge-Newton, MA-NH" "Massachusetts"
+   "Atlanta-Sandy Springs-Roswell, GA" "Georgia"})
 
 ^{::clerk/visibility {:code :hide :result :hide}}
 (def annual-electricity-prices
@@ -81,7 +127,7 @@
     (filter #(str/includes? % "residential"))
     (map #(str/split % #","))
     (map #(vector
-           (second (re-find #"(\w+)\s-*:\s-*residential" (first %)))
+           (second (re-find #"([\w\s]+)\s-*:\s-*residential" (first %)))
            (subvec % 3))))
    (completing
     (fn [data [state prices]]
@@ -142,7 +188,8 @@
   (let [declination (calc-declination-angle Year Month Day)
         angle-factor (calc-incident-angle-factor
                       (Math/toRadians latitude)
-                      0
+                      latitude
+                                        ;0
                       Hour
                       (Math/toRadians 90)
                       (Math/toRadians declination))]
@@ -188,7 +235,7 @@
             (clerk/use-headers
              (into [["Metro Area" "Avg Housing Unit Power Generation (kWH/year)" "Total insolation" "Avergage Electricity Cost (cents/kWH)" "Average Savings($)"]]
                    (mapv flatten
-                         (reverse (sort-by (comp first val) insolation-by-area))))))
+                         (reverse (sort-by (comp last val) insolation-by-area))))))
            (clerk/table [["Total potential power (MWH)"
                           (reduce
                            (fn [total [area [power]]]
